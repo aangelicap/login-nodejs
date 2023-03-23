@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<div class="content">
+    <h2>
+        Login
+    </h2>
+
+    <% if (messages.error) { %>
+        <%= messages.error  %>
+    <% } %>
+    <div class="form">
+        <form action="/login" method="POST">
+            <div class="input">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="input">
+                <label for="password">Senha</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+        <a class="link" href="/register"> Ir para o cadastro</a>
+    </div>
+    </body>
+</div>
+
+</html>

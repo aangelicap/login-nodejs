@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto';font-size: 22px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px;
+}
+
+label {
+  display: flex;
+  justify-content: flex-start;
+  color: #79767a;
+  font-weight: bold;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ac51d4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  color: #ac51d4;  
+}
+
+.link {
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ac51d4;  
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a:hover{
+  opacity: 0.8;
+}
